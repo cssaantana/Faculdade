@@ -1,5 +1,3 @@
-//Nome: Caroline Dos Santos Santana
-
 class No {
     int valor;
     No esquerdo, direito;
