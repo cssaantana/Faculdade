@@ -1,5 +1,3 @@
-// Nome: Caroline Dos Santos Santana
-
 import java.util.ArrayList;
 import java.util.List;
 
