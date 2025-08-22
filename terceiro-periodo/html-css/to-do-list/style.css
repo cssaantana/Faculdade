@@ -1,0 +1,108 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #fdf6f0;
+  color: #c28e8e;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: #fff8f2;
+  border: 1px solid #deb3a7;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px 25px;
+  width: 90%;
+  max-width: 500px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  margin: 0;
+}
+
+.descricao {
+  font-size: 14px;
+  color: #c29797;
+  margin-top: 5px;
+}
+
+.entrada {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #caa;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #fffefc;
+}
+
+button {
+  background-color: #8b1e3f;
+  color: white;
+  border: none;
+  padding: 0 16px;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #a8324a;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background-color: #f9e8e2;
+  border: 1px solid #e2b4a4;
+  padding: 10px 14px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: opacity 0.3s ease;
+}
+
+li input[type="checkbox"] {
+  transform: scale(1.2);
+  accent-color: #8b1e3f;
+  cursor: pointer;
+}
+
+span.concluida {
+  text-decoration: line-through;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.assinatura {
+  font-size: 13px;
+  color: #947373;
+}
